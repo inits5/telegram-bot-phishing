@@ -1,6 +1,6 @@
 import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
-
+print("github -> https://github.com/inits5/\ntelegram -> @inits5\n")
 api = input("please enter your api token : ")
 channel = input("please enter your channel (For mandatory membership) , (@exampel_com) : ")
 
