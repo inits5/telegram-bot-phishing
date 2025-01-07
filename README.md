@@ -30,7 +30,7 @@ pip install termcolor
 pip install art
 ```
 
-#or
+# or
 ```
 pip install telebot termcolor art 
 ```
