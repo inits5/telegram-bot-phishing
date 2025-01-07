@@ -2,8 +2,8 @@ import telebot
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 from termcolor import colored
 import art
-API = input("enter your api token ->")
-CH = input("enter your channel username (example : @user_id)")
+API = input("enter your api token -> ")
+CH = input("enter your channel username (example : @user_id) -> ")
 bot = telebot.TeleBot(API) 
 CHANNEL_USERNAME = CH
 
