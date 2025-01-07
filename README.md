@@ -9,6 +9,11 @@ Interesting phishing scenario to hack Telegram account
 میرید یه چنل با پروفایل خیلی خفنو واقعی که برای رباتتون زدید میزنید
 و رباتتون رو داخلش ادمین میکنی برای بررسی عضویت 
 اسکریپت خودش خودکار ازتون دریافت میکنه هم ایدی چنل و هم توکن ربات رو این به این منظوره که حتی اگه مبتدی هستید و نمیتونید به کد ها دست بزنید بتونید ازش استفاده کنید
+![phish](https://github.com/user-attachments/assets/cb860db3-9c68-4d5b-b3bd-8c210498b9cc)
+
+
+
+
 
 ```
 git clone https://github.com/inits5/telegram-bot-phishing
